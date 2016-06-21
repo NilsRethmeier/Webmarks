@@ -65,7 +65,7 @@ class BrokenLinksSpider(CrawlSpider):
         # run bash command with new output file named after the domain
         os.chdir("pagecrawler/pagecrawler/")
         print (os.getcwd())
-        bashCommand = "scrapy crawl {} -o linkfiles/raw/{}.json".format(domain_identifier,domain_identifier)
+        bashCommand = "scrapy crawl {} -o ../../linkfiles/raw/{}.json".format(domain_identifier,domain_identifier)
         print (bashCommand)
         process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         output = process.communicate()[0]

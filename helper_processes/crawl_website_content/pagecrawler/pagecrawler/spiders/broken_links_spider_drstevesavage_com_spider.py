@@ -10,11 +10,10 @@ class BrokenItem(Item):
 
 
 class BrokenLinksSpider(CrawlSpider):
-    name = "jacobinmag_com"
-    allowed_domains = ["jacobinmag.com"]
-    start_urls = ["http://jacobinmag.com/"]
+    name = "drstevesavage_com"
+    allowed_domains = ["drstevesavage.com"]
+    start_urls = ["http://www.drstevesavage.com/"]
     handle_httpstatus_list = [200]
-    custom_settings =
 
     deny=[".*\?.*", ".*.png", ".*.jpg",".*http:/www.*", ".*gs-proxy", "\&.*"]
 
