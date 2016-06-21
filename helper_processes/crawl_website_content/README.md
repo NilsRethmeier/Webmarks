@@ -8,7 +8,7 @@ This package aims to find all articles for a given domain and crawls their conte
 
 ## Input
 
-TXT.file with domains in format (1 domain per line)
+TXT.file with domains in format (1 domain per line) into **linkchecker.py**
 
 1. https://www.example.com/
 2. http://www.example.com/
@@ -24,24 +24,24 @@ TXT.file with domains in format (1 domain per line)
 
 ##### END
 
-via url_to_dict_newspaper.py:
-    1. a folder for every domain with path: "/crawl_websites_content/crawled_pages/example_com/"
-    2. a .TXT file for every crawled url containing a DICT with the following values:
-      - "uri"
-      - "title"
-      - "summary"
-      - "authors"
-      - "publish_date"
-      - "body_text"
-      - "keywords"
+**comes from url_to_dict_newspaper.py:**
+ 1. a folder for every domain with path: "/crawl_websites_content/crawled_pages/example_com/"
+ 2. a .TXT file for every crawled url containing a DICT with the following values:
+  - "uri"
+  - "title"
+  - "summary"
+  - "authors"
+  - "publish_date"
+  - "body_text"
+  - "keywords"
   - "tags"
 
- ### IN BETWEEN
+ ##### IN BETWEEN
 
  via
 
 
- ### LOGS
+ ##### LOGS
 
 
 
@@ -69,10 +69,11 @@ Filtering out non-articles with requirements:
  - have '/tags/' path
  - have '/tag/' path
  - have '/search/' path
+
 ##### Input:
-a '*.json' file for every crawled domain in path: '/crawl_website_content/linkfiles/raw/'
+'*.json' file for every crawled domain in path: '/crawl_website_content/linkfiles/raw/'
 ##### Output:
-a '*_cleaned.txt' file for every crawled domain with the urls that are eligible to be crawled with newspaper.py in the path: '/crawl_website_content/linkfiles/cleaned/'
+'*_cleaned.txt' file for every crawled domain with the urls that are eligible to be crawled with newspaper.py in the path: '/crawl_website_content/linkfiles/cleaned/'
 
 ### normaliser.py
 ##### Goal:
