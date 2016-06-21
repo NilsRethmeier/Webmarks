@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c04991-7b19-422d-b049-aaccb6337d99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_requests/arxiv_api_request.py" afterPath="$PROJECT_DIR$/api_requests/arxiv_api_request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_requests/hypothesis_api_req.py" afterPath="$PROJECT_DIR$/api_requests/hypothesis_api_req.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_requests/lateral_api_req.py" afterPath="$PROJECT_DIR$/api_requests/lateral_api_req.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app.py" afterPath="$PROJECT_DIR$/flask_app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helper_processes/crawl_website_content/linkchecker.py" afterPath="$PROJECT_DIR$/helper_processes/crawl_website_content/linkchecker.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helper_processes/crawl_website_content/links_cleaner.py" afterPath="$PROJECT_DIR$/helper_processes/crawl_website_content/links_cleaner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helper_processes/crawl_website_content/normaliser.py" afterPath="$PROJECT_DIR$/helper_processes/crawl_website_content/normaliser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helper_processes/crawl_website_content/url_to_dict_newspaper.py" afterPath="$PROJECT_DIR$/helper_processes/crawl_website_content/url_to_dict_newspaper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helper_processes/newspaper_extract.py" afterPath="$PROJECT_DIR$/helper_processes/newspaper_extract.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meta_browsing_types/relevant_lateral.py" afterPath="$PROJECT_DIR$/meta_browsing_types/relevant_lateral.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="metabrowser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -148,9 +140,6 @@
       </file>
     </leaf>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -231,15 +220,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metabrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metabrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper_processes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Python.linkchecker">
     <configuration default="false" name="url_to_dict_newspaper" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -422,12 +421,6 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="25c04991-7b19-422d-b049-aaccb6337d99" name="Default" comment="" />
-      <created>1466509527989</created>
-      <option name="number" value="Default" />
-      <updated>1466509527989</updated>
-    </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
