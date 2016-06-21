@@ -1,0 +1,8 @@
+Scrapy
+newspaper
+subprocess
+time
+os
+glob
+normaliser
+newspaper_extract
