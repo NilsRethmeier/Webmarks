@@ -38,7 +38,7 @@ via url_to_dict_newspaper.py:
   - "keywords"
   - "tags"
 
- ## Process description
+## Process description
 
  1. A **list of domains** is given to **linkchecker.py**
  2. .json files with the output urls from *linkchecker.py* are given to **link_cleaner.py**
@@ -57,10 +57,10 @@ Filtering out non-articles from list of urls
 #### 3. url_to_dict_newspaper.py
 Takes all urls, crawls them with *newspaper* and saves them to the path: */exampledomain_com/exampleurl_com_timestamp*
  
-### normaliser.py
+#### 4. normaliser.py
 Converting domain-urls in project wide standard identifiers
 
 ## Package requirements
-siehe requirements.txt
+see [requirements.txt](https://github.com/WorldBrain/metabrowser/blob/master/helper_processes/crawl_website_content/requirements.txt)
 
 
