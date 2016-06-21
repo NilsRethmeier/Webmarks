@@ -1,3 +1,24 @@
+### README
+'''
+
+GOAL OF THIS MODULE:
+
+INPUT:
+
+OUTPUT:
+
+IMPORTANT NOTES:
+
+TODOs DUMP (PLEASE ADD AS ISSUE, IF YOU CAN'T DO IT YOURSELF):
+
+'''
+####
+
+
+
+
+
+
 import json
 
 from api_requests import hypothesis_api_req, lateral_api_req

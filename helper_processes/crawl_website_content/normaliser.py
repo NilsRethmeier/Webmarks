@@ -1,5 +1,20 @@
+### README
+'''
 
-# TODO: What happens if it is just gibberish? Try except + errorlog + timestamp
+GOAL OF THIS MODULE:
+
+INPUT:
+
+OUTPUT:
+
+IMPORTANT NOTES:
+
+TODOs DUMP (PLEASE ADD AS ISSUE, IF YOU CAN'T DO IT YOURSELF):
+    1. What happens if URL is just gibberish? Try except + errorlog + timestamp
+
+'''
+####
+
 def build_identifier(domain):
     #print (domain)
     domain_base=domain
@@ -54,8 +69,6 @@ def build_identifier(domain):
 #build_identifier("scientificbeekeeping.com")
 #build_identifier("scientificbeekeeping.com/")
 #build_identifier("http://www.test.de")
-
-
 
 
 

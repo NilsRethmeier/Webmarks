@@ -1,3 +1,23 @@
+### README
+'''
+
+GOAL OF THIS MODULE:
+
+INPUT:
+
+OUTPUT:
+
+IMPORTANT NOTES:
+
+TODOs DUMP (PLEASE ADD AS ISSUE, IF YOU CAN'T DO IT YOURSELF):
+
+'''
+####
+
+
+
+
+
 import requests
 
 from helper_processes import newspaper_extract

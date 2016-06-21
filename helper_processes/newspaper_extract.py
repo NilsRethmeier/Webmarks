@@ -1,3 +1,20 @@
+### README
+'''
+
+GOAL OF THIS MODULE:
+
+INPUT:
+
+OUTPUT:
+
+IMPORTANT NOTES:
+
+TODOs DUMP (PLEASE ADD AS ISSUE, IF YOU CAN'T DO IT YOURSELF):
+
+'''
+####
+
+
 from newspaper import Article
 
 
