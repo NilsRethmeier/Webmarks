@@ -27,15 +27,15 @@ allowed formats:
 ##### END
 
 via url_to_dict_newspaper.py:
-    1. a folder for every domain with path: "/crawl_websites_content/crawled_pages/example_com/"
-    2. a .TXT file for every crawled url containing a DICT with the following values:
-      - "uri"
-      - "title"
-      - "summary"
-      - "authors"
-      - "publish_date"
-      - "body_text"
-      - "keywords"
+ 1. a folder for every domain with path: "/crawl_websites_content/crawled_pages/example_com/"
+ 2. a .TXT file for every crawled url containing a DICT with the following values:
+  - "uri"
+  - "title"
+  - "summary"
+  - "authors"
+  - "publish_date"
+  - "body_text"
+  - "keywords"
   - "tags"
 
  ## Process description
