@@ -29,11 +29,12 @@ To get an idea of the look and feel, take a look at our demo video of the proof 
 
 How to try it out:
 
- 1. Get a Hypothes.is account (optionally, install their plugin)
- 2. Join related article group (Just open and close the page again)
- 3. Drag and drop this text into your bookmark bar
- 4. Press the "WorldBrain Related Articles"-button whenever you want to get related content for a website.
- 5. Wait a few seconds for Hypothes.is to refresh or switch groups back and forth to do so manually.
+ 1. [Get a Hypothes.is account](https://hypothes.is/register) (optionally, [install their browser plugin](https://hypothes.is/))
+ 2. [Join "Related Articles" group](https://hypothes.is/groups/KG9bL1Bm/related-articles).
+ 3. Bookmark this website and replace the URL with the following code (and a title you like)
+   - 'javascript:(function(){var iframe=document.createElement('iframe');iframe.src='https://worldbrain.rwweb.org/?url='+window.location.href+'&selection='+window.getSelection().toString();iframe.style.display='none';document.body.appendChild(iframe);window.hypothesisConfig=function(){return{showHighlights:true,firstRun: true};};var d=document,s=d.createElement('script');s.setAttribute('src','https://hypothes.is/embed.js');d.body.appendChild(s);})()'
+ 4. Press the Bookmark-button whenever you want to get related content for a website.
+ 5. Wait a few seconds for the sidebar to refresh (or switch groups back and forth to do so manually)
 
 
 **Important:** Some websites block bookmarklets and therefore the sidebar won't open automatically. Use the [Hypothes.is browser plugin](http://www.hypothes.is) instead then.
