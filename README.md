@@ -42,22 +42,14 @@ We also saw that in rare cases Hypothes.is doesn't show the elements in the side
 In this case you can access them via the dashboard you find in the top right corner of the sidebar, when clicking on your user name. ([Screenshot](http://www.worldbrain.io/wp-content/uploads/2016/06/Screen-Shot-2016-06-22-at-11.14.30.png))
 
 
-
 ## Current State & Roadmap
 
-The current channel "Related Content" is powered by [Laterals News API](https://lateral.io/publishing) that we broadcast into a [Hypothes.is group](https://hypothes.is/groups/KG9bL1Bm/related-articles). It serves well as a proof of concept on how to display related content.
+We just published our first proof of concept with the channel "Related Content" which is powered by [Laterals News API](https://lateral.io/publishing) and is broadcasted into a [Hypothes.is group](https://hypothes.is/groups/KG9bL1Bm/related-articles).
 
-However the results of the API are not suitable for the very specific web-researching needs of science communicators.
-In their research they rely on a set of individual resources they trust to search for quality content.
-Those outlets range from niche to mainstream media. Especially the smaller ones are not properly represented in classic search engines like google.
+Currently we are working on the feature of retrieving relevant content from a **science community-trusted** network of blogs, news outlets, facebook groups/pages and scholarly(PubMed) or governmental(FDA) databases.
 
-This is why we want to bring the option of getting recommendations and perform individual search queries on a set of freely choosable websites.
-
-Short term roadmap in 3 stages:
-
- 1. Indexing outlets a growing number of outlets that have been marked as trusted by the community of science communicators 
- 2. Building the recommendation and search channel **without** the option of customization - but chosen from the pool of community trusted sources. 
- 3. Implementing customizable choice of sources. 
-
-
+## How to currently contribute best
+ 1. [Check out some open tasks to code on](https://github.com/WorldBrain/Webmarks/issues)
+ 2. [Showing us which which websites you trust and we should index first](https://github.com/WorldBrain/Webmarks/blob/master/helper_processes/bookmarklet_send.txt)
+ 
 
