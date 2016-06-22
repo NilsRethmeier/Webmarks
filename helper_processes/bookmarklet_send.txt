@@ -1,3 +1,6 @@
-Just bookmark this page and change its url to this line:
+We are currently gathering the sources people trust in their research, so we can index them for our content recommendation and make them searchable.
+
+Use our bookmarklet (which is like a bookmark executing a line of code) and press the button everytime you are on a page you'd like to index - it then gets send to us.
+To install the bookmarklet, just bookmark this page and change its URL to this line:
 
 javascript:(function(){var iframe=document.createElement('iframe');iframe.src='https://worldbrain.rwweb.org/?trusted='+window.location.href;iframe.style.display='none';document.body.appendChild(iframe);alert('Thanks for sending this website to WorldBrain!');})()
