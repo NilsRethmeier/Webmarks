@@ -32,7 +32,7 @@ How to try it out:
  1. [Get a Hypothes.is account](https://hypothes.is/register) (optionally, [install their browser plugin](https://hypothes.is/))
  2. [Join "Related Articles" group](https://hypothes.is/groups/KG9bL1Bm/related-articles).
  3. Bookmark this website and replace the URL with the following code (and a title you like)
-   - 'javascript:(function(){var iframe=document.createElement('iframe');iframe.src='https://worldbrain.rwweb.org/?url='+window.location.href+'&selection='+window.getSelection().toString();iframe.style.display='none';document.body.appendChild(iframe);window.hypothesisConfig=function(){return{showHighlights:true,firstRun: true};};var d=document,s=d.createElement('script');s.setAttribute('src','https://hypothes.is/embed.js');d.body.appendChild(s);})()'
+   - `javascript:(function(){var iframe=document.createElement('iframe');iframe.src='https://worldbrain.rwweb.org/?url='+window.location.href+'&selection='+window.getSelection().toString();iframe.style.display='none';document.body.appendChild(iframe);window.hypothesisConfig=function(){return{showHighlights:true,firstRun: true};};var d=document,s=d.createElement('script');s.setAttribute('src','https://hypothes.is/embed.js');d.body.appendChild(s);})()`
  4. Press the Bookmark-button whenever you want to get related content for a website.
  5. Wait a few seconds for the sidebar to refresh (or switch groups back and forth to do so manually)
 
