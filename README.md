@@ -15,8 +15,7 @@ It aims to make the 2 main elements of online research more efficient: Content D
 #### Medium Term (~6 months)
 
  - Providing more ways of retreiving meta information like Altmetric data, author information, citations etc. etc. 
- - Customise the choice of sources to get relevant content and to search from.
-
+ - Customise the choice of sources to get relevant content from and to search through.
 
 #### Long Term (~1 year)
 
