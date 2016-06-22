@@ -1,6 +1,6 @@
 Our next feature will be the ability to get relevant content and manually search through the sources you trust. Like blogs, websites, facebook groups/pages and governmental databases. 
 
-To gather the most important ones that we have to index to provide this feature, we invite you to help us out on this. 
+To gather the most important **DOMAINS** we have to index to provide this feature, we invite you to help us out on this. 
 
 ##### If you want to help, you have 3 options to do so:
 
