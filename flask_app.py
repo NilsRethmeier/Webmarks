@@ -39,3 +39,7 @@ def hello_name():
     #print ("this is the selction: "+ selection)
 
     return relevant_lateral.url_processor(url, selection)
+
+
+
+## (TEST)
