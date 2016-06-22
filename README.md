@@ -42,12 +42,6 @@ We also saw that in rare cases Hypothes.is doesn't show the elements in the side
 In this case you can access them via the dashboard you find in the top right corner of the sidebar, when clicking on your user name. ([Screenshot](http://www.worldbrain.io/wp-content/uploads/2016/06/Screen-Shot-2016-06-22-at-11.14.30.png))
 
 
-## Current State & Roadmap
-
-We just published our first proof of concept with the channel "Related Content" which is powered by [Laterals News API](https://lateral.io/publishing) and is broadcasted into a [Hypothes.is group](https://hypothes.is/groups/KG9bL1Bm/related-articles).
-
-Currently we are working on the feature of retrieving relevant content from a **science community-trusted** network of blogs, news outlets, facebook groups/pages and scholarly(PubMed) or governmental(FDA) databases.
-
 ## How to currently contribute best
  1. [Check out some open tasks to code on](https://github.com/WorldBrain/Webmarks/issues)
  2. [Showing us which which websites you trust and we should index first](https://github.com/WorldBrain/Webmarks/blob/master/helper_processes/bookmarklet_send.txt)
