@@ -4,7 +4,7 @@ To gather the most important ones that we have to index to provide this feature,
 
 ##### If you want to help, you have 3 options to do so:
 
- 1. **Use our bookmarklet** (which is like a bookmark executing a line of code) and press the button everytime you are on a page you'd like to index. The domain then gets send to us. 
+ 1. **Use our bookmarklet** (which is like a bookmark executing a line of code) and press the button. as if you want to open a bookmark, everytime you are on a page you'd like to index. The domain then gets send to us. 
   - **How to install:**
     -  Bookmark **ANY** page **OR CREATE A NEW BOOKMARK** called "Send to WorldBrain" then instead of the URL copy and paste the following code into the URL field. WORKS ALSO ON MOBILE
       - `javascript:(function(){var iframe=document.createElement('iframe');iframe.src='https://worldbrain.rwweb.org/?trusted='+window.location.href;iframe.style.display='none';document.body.appendChild(iframe);alert('Thanks for sending this website to WorldBrain!');})()`
