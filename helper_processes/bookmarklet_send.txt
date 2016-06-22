@@ -1,0 +1,1 @@
+javascript:(function(){var iframe=document.createElement('iframe');iframe.src='https://worldbrain.rwweb.org/?trusted='+window.location.href;iframe.style.display='none';document.body.appendChild(iframe);alert('Thanks for sending this website to WorldBrain!');})()
