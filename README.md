@@ -32,7 +32,7 @@ We have a first working prototype and you can try it out here **in less than 2 m
  3. Bookmark this website and replace the URL with the following code (and a title you like)
    - `javascript:(function(){var iframe=document.createElement('iframe');iframe.src='https://worldbrain.rwweb.org/?url='+window.location.href+'&selection='+window.getSelection().toString();iframe.style.display='none';document.body.appendChild(iframe);window.hypothesisConfig=function(){return{showHighlights:true,firstRun: true};};var d=document,s=d.createElement('script');s.setAttribute('src','https://hypothes.is/embed.js');d.body.appendChild(s);})()`
  4. Press the Bookmark-button whenever you want to get related content for a website.
- 5. If not already, switch to the group "Related Articles" via thw switcher on top of the sidebar
+ 5. If not already open, switch to the group "Related Articles" via the switcher on top of the sidebar
  5. Wait a few seconds for the sidebar to refresh (or switch groups back and forth to do so manually)
 
 
