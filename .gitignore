@@ -3,3 +3,5 @@ helper_processes/crawl_website_content/linkfiles/
 helper_processes/crawl_website_content/__pycache__/
 helper_processes/crawl_website_content/pagecrawler/pagecrawler/__pycache__/
 helper_processes/crawl_website_content/pagecrawler/pagecrawler/spiders/__pycache__/
+trusted_domains.txt
+api_requests/api_key_hypothesis.txt

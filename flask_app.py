@@ -20,17 +20,22 @@ TODOs DUMP (PLEASE ADD AS ISSUE, IF YOU CAN'T DO IT YOURSELF):
 from flask import Flask
 from flask import request
 
-from meta_browsing_types import relevant_lateral
+import relevant_lateral
 
 app = Flask(__name__)
 
 
-@app.route('/',methods=['GET'])
+@app.route('/')
 def hello_name():
     selection=request.args.get("selection")
     url= request.args.get("url")
-    print selection
+    trusted=request.args.get("trusted")
+    #print selection
+    print (trusted)
+    if trusted:
+        with open("trusted_domains.txt","a+") as file:
+            file.writelines(trusted+"\n")
 
-    print ("this is the selction: "+ selection)
+    #print ("this is the selction: "+ selection)
 
     return relevant_lateral.url_processor(url, selection)

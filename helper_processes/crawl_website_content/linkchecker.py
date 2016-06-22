@@ -102,7 +102,7 @@ linkchecker_bot()
 ###### STILL TO DO:
 #
 # 1.  Write Error logs with linkchecker_errorlog.txt as filename ("id": domain_identifier,types": excuting bash command, writing bash config file) and error message + timestamp
-# 2. Multithreading supervision via python module
+# 2.  Multithreading supervision via python module
 #
 #
 #

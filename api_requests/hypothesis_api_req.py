@@ -15,7 +15,7 @@ TODOs DUMP (PLEASE ADD AS ISSUE, IF YOU CAN'T DO IT YOURSELF):
 ####
 
 
-
+API_KEY=open("api_key_hypothesis.txt","r").read()
 
 
 import requests
@@ -33,7 +33,7 @@ import json
 def get_item_list_group(group_id, user, uri):
     url = "https://hypothes.is/api/search?uri={}&user={}&group={}&limit=100".format(uri,user,group_id)
     headers = {
-        "Authorization" : "Bearer 6879-9dd0c5143502fc1f238e0325238151c4",
+        "Authorization" : "Bearer "+str(API_KEY),
         "Content-Type" : "application/json;charset=UTF-8"
         }
     data={}
@@ -60,20 +60,23 @@ def get_item_list_group(group_id, user, uri):
 #get_item_list_group(group_id,user, uri)
 
 
-
+group_id= "KG9bL1Bm"
+user= "acct:WorldBrain@hypothes.is"
+uri = "https://www.theguardian.com/environment/climate-consensus-97-per-cent/2016/jan/25/record-hot-2015-gave-us-a-glimpse-at-the-future-of-global-warming"
 
 ##### delete all items in a GROUP_ID for a URI by a spcific USER:
 
 def delete_all_items_group_uri(group_id, user, uri):
 
+
+
     list_to_delete=get_item_list_group(group_id,user,uri)
 
     for item in list_to_delete[1]:
         # print item
-
         url = "https://hypothes.is/api/annotations/{}".format(item)
         headers = {
-            "Authorization" : "Bearer 6879-9dd0c5143502fc1f238e0325238151c4",
+            "Authorization" : "Bearer "+str(API_KEY),
             "Content-Type" : "application/json;charset=UTF-8"
             }
         data={}
@@ -96,7 +99,7 @@ def delete_all_items_group_uri(group_id, user, uri):
 def delete_one_item(item_id):
     url = "https://hypothes.is/api/annotations/{}".format(item_id)
     headers = {
-        "Authorization" : "Bearer 6879-9dd0c5143502fc1f238e0325238151c4",
+        "Authorization" : "Bearer "+str(API_KEY),
         "Content-Type" : "application/json;charset=UTF-8"
         }
     data={}
@@ -120,7 +123,7 @@ def post_hypothesis(group_id, user, text, uri,selection):
 
     url = "https://hypothes.is/api/annotations"
     headers = {
-        "Authorization" : "Bearer 6879-9dd0c5143502fc1f238e0325238151c4",
+        "Authorization" : "Bearer "+str(API_KEY),
         "Content-Type" : "application/json;charset=UTF-8"
         }
 
@@ -154,7 +157,7 @@ def post_hypothesis(group_id, user, text, uri,selection):
 def hypothesis_search_id(id):
     url = "https://hypothes.is/api/search?id="+id
     headers = {
-        "Authorization" : "Bearer 6879-9dd0c5143502fc1f238e0325238151c4",
+        "Authorization" : "Bearer "+str(API_KEY),
         "Content-Type" : "application/json;charset=UTF-8"
         }
     data={}
@@ -181,5 +184,5 @@ def hypothesis_search_id(id):
 
     return text_list,id_list
 
-hypothesis_search_id("qhAZOjWsEeawSQ_WZLsugA")
+#hypothesis_search_id("qhAZOjWsEeawSQ_WZLsugA")
 

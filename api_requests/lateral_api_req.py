@@ -20,7 +20,7 @@ TODOs DUMP (PLEASE ADD AS ISSUE, IF YOU CAN'T DO IT YOURSELF):
 
 import requests
 
-from helper_processes import newspaper_extract
+import newspaper_extract
 
 
 def strip_non_ascii(string):
@@ -74,6 +74,9 @@ def post_lateral_selection(uri,selection):
 
     url = "https://news-api.lateral.io/documents/similar-to-text"
 
+    if selection==None:
+        return "test"
+
     selection=strip_non_ascii(selection)
     selection=selection.replace("'"," ")
     selection=selection.replace("\n"," ")
@@ -93,6 +96,6 @@ def post_lateral_selection(uri,selection):
     response_text=response.text
     response_code=response.status_code
 
-    print (response_code)
+    #print (response_code)
 
     return response_text,response_code
