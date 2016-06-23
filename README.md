@@ -44,6 +44,6 @@ In this case you can access them via the dashboard you find in the top right cor
 
 ## How to currently contribute best
  1. [Check out some open tasks to code on](https://github.com/WorldBrain/Webmarks/issues)
- 2. [Showing us which which websites you trust and we should index first](https://github.com/WorldBrain/Webmarks/blob/master/helper_processes/bookmarklet_send.txt)
+ 2. [Showing us which which websites you trust and we should index first](https://github.com/WorldBrain/Webmarks/blob/master/helper_processes/index_sources.md)
  
 
