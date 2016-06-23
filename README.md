@@ -32,7 +32,7 @@ It aims to make the 2 main elements of online research more efficient: Content D
 <br>
 ## Demo
 
-We have a first working prototype and you can try it out here **in less than 2 minutes**:
+We have a first working proof of concept, you can either check out [our demo video](https://www.youtube.com/watch?v=mWLg1awM3BE) **or** you can try it out yourself **in less than 2 minutes**:
 
  1. [Get a Hypothes.is account](https://hypothes.is/register) (optionally, [install their browser plugin](https://hypothes.is/))
  2. [Join "Related Articles" group](https://hypothes.is/groups/KG9bL1Bm/related-articles).
