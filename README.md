@@ -3,7 +3,14 @@
 WorldBrain Webmarks is an open souce web research tool for science communicators.
 It aims to make the 2 main elements of online research more efficient: Content Discovery and Knowledge Management.
 
-## Key features:
+## Key Features
+ - Automatically retrieving related content for articles, blog posts and scientific papers from a **personal/science community-trusted** network of blogs, news outlets, facebook groups/pages and scholarly(PubMed) or governmental(FDA) databases.
+ - Performing individual searches through all of those sources at once, instead of searching every page manually or the whole web via google. 
+ - Bookmarking, annotating, sharing and discussing web content with the community and the public. 
+ - Possibility for developers and data journalists/scientists to add new ways of putting web content into context, for example by displaying Altmetric data or scholarly citations. 
+
+<br>
+## Development Roadmap
 
 #### Short Term (~3 months)
 
@@ -21,8 +28,8 @@ It aims to make the 2 main elements of online research more efficient: Content D
 
  - There are endless possibilities in how you can put a page in context - and we surely won't cover all. This is why we want to publish this as open source library that allows data scientists to develop, use or distribute their individual meta-browsing scripts to WorldBrain users. 
  - Bookmarking and annotating of web content. 
- 
 
+<br>
 ## Demo
 
 We have a first working prototype and you can try it out here **in less than 2 minutes**:
@@ -42,6 +49,7 @@ We also saw that in rare cases Hypothes.is doesn't show the elements in the side
 In this case you can access them via the dashboard you find in the top right corner of the sidebar, when clicking on your user name. ([Screenshot](http://www.worldbrain.io/wp-content/uploads/2016/06/Screen-Shot-2016-06-22-at-11.14.30.png))
 
 
+<br>
 ## How to currently contribute best
  1. [Check out some open tasks to code on](https://github.com/WorldBrain/Webmarks/issues)
  2. [Showing us which which websites you trust and we should index first](https://github.com/WorldBrain/Webmarks/blob/master/helper_processes/index_sources.md)
