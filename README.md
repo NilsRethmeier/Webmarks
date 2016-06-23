@@ -14,7 +14,7 @@ It aims to make the 2 main elements of online research more efficient: Content D
 
 #### Short Term (~3 months)
 
- - Automatically retrieve related content and meta information for articles, blog posts and scientific papers from a **personal/science community-trusted** network of blogs, news outlets, facebook groups/pages and scholarly(PubMed) or governmental(FDA) databases.
+ - Automatically retrieve related content and meta information for articles, blog posts and scientific papers from a **science community-trusted** network of blogs, news outlets, facebook groups/pages and scholarly(PubMed) or governmental(FDA) databases.
  - Perform individual searches through all of those sources at once, instead of searching every page manually or the whole web via google. 
  
 **Help neeed:** We currently gather a set of sources to index for the relevancy search. So if you want to help us, send us an email with a list of resources you want to have **or** use [our handy bookmarklet](https://github.com/WorldBrain/Webmarks/blob/master/helper_processes/index_sources.md), you can click everytime you visit a page you like. It then anonymously sends the current domain to us and we can start indexing it. 
