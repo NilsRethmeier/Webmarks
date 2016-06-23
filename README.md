@@ -5,19 +5,19 @@ It aims to make the 2 main elements of online research more efficient: Content D
 
 ## Key features:
 
-#### Short Term (~2 months)
+#### Short Term (~3 months)
 
  - Automatically retrieve related content and meta information for articles, blog posts and scientific papers from a **personal/science community-trusted** network of blogs, news outlets, facebook groups/pages and scholarly(PubMed) or governmental(FDA) databases.
  - Perform individual searches through all of those sources at once, instead of searching every page manually or the whole web via google. 
  
 **Help neeed:** We currently gather a set of sources to index for the relevancy search. So if you want to help us, send us an email with a list of resources you want to have **or** use [our handy bookmarklet](https://github.com/WorldBrain/Webmarks/blob/master/helper_processes/index_sources.md), you can click everytime you visit a page you like. It then anonymously sends the current domain to us and we can start indexing it. 
 
-#### Medium Term (~6 months)
+#### Medium Term (~6-8 months)
 
  - Providing more ways of retreiving meta information like Altmetric data, author information, citations etc. etc. 
  - Customise the choice of sources to get relevant content from and to search through.
 
-#### Long Term (~1 year)
+#### Long Term (~1-1,5 years)
 
  - There are endless possibilities in how you can put a page in context - and we surely won't cover all. This is why we want to publish this as open source library that allows data scientists to develop, use or distribute their individual meta-browsing scripts to WorldBrain users. 
  - Bookmarking and annotating of web content. 
